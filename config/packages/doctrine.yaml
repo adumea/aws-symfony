@@ -1,11 +1,11 @@
 doctrine:
     dbal:
         driver: pdo_mysql
-        host: 'symfony.cjvpqr9glqqh.us-east-1.rds.amazonaws.com'
+        host: 'aa1bce471dlcr8e.cjvpqr9glqqh.us-east-1.rds.amazonaws.com'
         port: '3306'
-        dbname: 'symfony'
-        user: 'admin'
-        password: '76UZ5KUT6BMLC5O5'
+        dbname: 'aa1bce471dlcr8e'
+        user: 'adumea'
+        password: 'yrqXJ2EYi8HJGyX'
     orm:
         auto_generate_proxy_classes: true
         naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
