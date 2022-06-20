@@ -3,7 +3,7 @@ doctrine:
         driver: pdo_mysql
         host: 'aa1bce471dlcr8e.cjvpqr9glqqh.us-east-1.rds.amazonaws.com'
         port: '3306'
-        dbname: 'aa1bce471dlcr8e'
+        dbname: 'ebdb'
         user: 'adumea'
         password: 'yrqXJ2EYi8HJGyX'
     orm:
