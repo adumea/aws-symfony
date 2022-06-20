@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcf0f358b3b399cd1ec5a9c0883bf279",
+    "content-hash": "a53812cc686ce353b678688cf3a92f21",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -345,7 +345,7 @@
                 "shasum": ""
             },
             "require": {
-                "composer-runtime-api": "^2",
+                "composer-runtime-api": "^1|^2",
                 "doctrine/cache": "^1.11|^2.0",
                 "doctrine/deprecations": "^0.5.3|^1",
                 "doctrine/event-manager": "^1.0",
@@ -1029,7 +1029,7 @@
                 "shasum": ""
             },
             "require": {
-                "composer-runtime-api": "^2",
+                "composer-runtime-api": "^1|^2",
                 "doctrine/dbal": "^3.3",
                 "doctrine/deprecations": "^0.5.3 || ^1",
                 "doctrine/event-manager": "^1.0",
@@ -1138,7 +1138,7 @@
                 "shasum": ""
             },
             "require": {
-                "composer-runtime-api": "^2",
+                "composer-runtime-api": "^1|^2",
                 "doctrine/cache": "^1.12.1 || ^2.1.1",
                 "doctrine/collections": "^1.5",
                 "doctrine/common": "^3.0.3",
@@ -5635,8 +5635,7 @@
     "platform": {
         "php": ">=7.4",
         "ext-ctype": "*",
-        "ext-iconv": "*",
-        "composer-runtime-api": "^2"
+        "ext-iconv": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
