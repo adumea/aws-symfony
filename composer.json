@@ -56,6 +56,9 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
+        ],
+        "gcp-build": [
+            "composer dump-autoload"
         ]
     },
     "conflict": {
